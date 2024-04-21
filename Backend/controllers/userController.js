@@ -76,7 +76,7 @@ exports.getUsers = asyncHandler(async (req, res) => {
   res.status(200).json({ results: users.length, data: users });
 });
 
-exports.addToLolCart = asyncHandler(async (req, res) => {
+exports.addToCart = asyncHandler(async (req, res) => {
   const users = await User.find({});
   res.status(200).json({ results: users.length, data: users });
 });
