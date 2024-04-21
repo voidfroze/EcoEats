@@ -1,0 +1,1 @@
+To run backend , run "npm run dev" , backend runs on localhost on port 8000
